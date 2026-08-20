@@ -1,0 +1,2 @@
+The release pipeline writes supatype.rb here. Keeping the directory in git means the first
+release does not have to create it, and makes it obvious where generated output lands.
