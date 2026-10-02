@@ -7,28 +7,28 @@
 class Supatype < Formula
   desc "Type-first platform for PostgreSQL"
   homepage "https://supatype.com"
-  version "0.3.4"
+  version "0.3.5"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://releases.supatype.com/cli/v0.3.4/supatype-cli-darwin-arm64.tar.gz"
-      sha256 "0f10f97c7b83d536e38606ec2b11ac588e81e6765f23eee953f578f83b9aa4e0"
+      url "https://releases.supatype.com/cli/v0.3.5/supatype-cli-darwin-arm64.tar.gz"
+      sha256 "60f18364070e6b7e534bf32194b1b5c658af44b1c6f37e68252b7142e701416c"
     end
     on_intel do
-      url "https://releases.supatype.com/cli/v0.3.4/supatype-cli-darwin-amd64.tar.gz"
-      sha256 "54d955d9f793d2ebe613ca5bfb6f4c9f39fbb9bc1792124d46a471344b32342f"
+      url "https://releases.supatype.com/cli/v0.3.5/supatype-cli-darwin-amd64.tar.gz"
+      sha256 "97c635a4a312f6786efb43fb85de15451bdb959eb557e32451de01cdf81d3e6d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://releases.supatype.com/cli/v0.3.4/supatype-cli-linux-arm64.tar.gz"
-      sha256 "908520cd3288403c10b98defcff1f700e3c66b6a380717ec8bd660a951f702bc"
+      url "https://releases.supatype.com/cli/v0.3.5/supatype-cli-linux-arm64.tar.gz"
+      sha256 "41f6ff3ca11177c812911de30a97e25b141a337e3d5ee2c5ccef2ec6aa6ce080"
     end
     on_intel do
-      url "https://releases.supatype.com/cli/v0.3.4/supatype-cli-linux-amd64.tar.gz"
-      sha256 "0fd25e91c09d017f3dedcf0924b018b37c76f3b8720a026ff602c66e6026e5cc"
+      url "https://releases.supatype.com/cli/v0.3.5/supatype-cli-linux-amd64.tar.gz"
+      sha256 "12f6e8bc94792d35243a026740b100165918abc0cce8f8b6645b1af86f2fc354"
     end
   end
 
