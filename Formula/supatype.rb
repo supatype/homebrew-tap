@@ -13,22 +13,22 @@ class Supatype < Formula
   on_macos do
     on_arm do
       url "https://releases.supatype.com/cli/v0.7.0/supatype-cli-darwin-arm64.tar.gz"
-      sha256 "5625534f4a1f92b1bbe8cc1fe991d74558a5d8e5877ac3e2b12307954906618d"
+      sha256 "a80ce09095eb54b5874645fb8210a402d5da8b9191e1625721a4ae1089e76e0d"
     end
     on_intel do
       url "https://releases.supatype.com/cli/v0.7.0/supatype-cli-darwin-amd64.tar.gz"
-      sha256 "37af5c4833669b17c696ab6d5a71286cd5281a2e5b8d35fed4bee7156a17d04c"
+      sha256 "166a16e6addad214434340c50613b06e639e012cbfb142fad9c5bcf9d94bcb4f"
     end
   end
 
   on_linux do
     on_arm do
       url "https://releases.supatype.com/cli/v0.7.0/supatype-cli-linux-arm64.tar.gz"
-      sha256 "275b4173e6572afaf6723548c2caee47c6faade43ef33b4387bdeea3130d40d4"
+      sha256 "309e0a719e92e430a7551217fd97d8231e55ff84dd1d39085a22892bdba741ed"
     end
     on_intel do
       url "https://releases.supatype.com/cli/v0.7.0/supatype-cli-linux-amd64.tar.gz"
-      sha256 "95e6ec7e978ae3312c12c54d9c219fc6c1b0592eba497ed4b847930aafb871d0"
+      sha256 "98f152bc9add324319333a0ea853461edce8a3aaef7291c37856835a1c89a95b"
     end
   end
 
